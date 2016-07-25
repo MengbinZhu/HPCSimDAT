@@ -1,20 +1,3 @@
-	include "/scratch3/BMC/nim/Brian.Etherton/QGmodel1/Bdepart.f90"
-	include "/scratch3/BMC/nim/Brian.Etherton/QGmodel1/Bdivers.f90"
-	include "/scratch3/BMC/nim/Brian.Etherton/QGmodel1/Bimsl.f90"
-	include "/scratch3/BMC/nim/Brian.Etherton/QGmodel1/Bnumadj.f90"
-	include "/scratch3/BMC/nim/Brian.Etherton/QGmodel1/Bnumericas.f90"
-	include "/scratch3/BMC/nim/Brian.Etherton/QGmodel1/Bsimplif.f90"
-	include "/scratch3/BMC/nim/Brian.Etherton/QGmodel1/Bsouspec.f90"
-	include "/scratch3/BMC/nim/Brian.Etherton/QGmodel1/Btransfo.f90"
-	include "/scratch3/BMC/nim/Brian.Etherton/QGmodel1/Bvarie.f90"
-	include "/scratch3/BMC/nim/Brian.Etherton/QGmodel1/Bprocess.f90"
-	include "/scratch3/BMC/nim/Brian.Etherton/QGmodel1/Brandom.f90"
-        include "/scratch3/BMC/nim/Brian.Etherton/QGmodel1/BInv.f90"
-        include "/scratch3/BMC/nim/Brian.Etherton/QGmodel1/BEnKF.f90"
-        include "/scratch3/BMC/nim/Brian.Etherton/QGmodel1/BEOF.f90"
-       !include "/scratch3/BMC/nim/Brian.Etherton/QGmodel1/Beps.f90"
-       !include "/scratch3/BMC/nim/Brian.Etherton/QGmodel1/Bbred.f90"
- 
      program runtest
 !
 ! Integration test of the SPHERICAL model with dissipation and forcing with mask

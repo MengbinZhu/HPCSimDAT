@@ -2,7 +2,11 @@
 *.mod
 
 # Ignore executables
-*.exe *.x
+*.exe 
+*.x
 
 # Ignore libraries
 *.a
+
+# Ignore object files
+*.o
