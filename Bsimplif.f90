@@ -4,7 +4,7 @@
 !c     
       character*80 qegnfil
 !c
-      qegnfil='/scratch3/BMC/nim/Brian.Etherton/QGmodel1/PLYLG21'
+      qegnfil='./PLYLG21'
       call initctrl
       call inittrsf(qegnfil)
       call gausstrig

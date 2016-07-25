@@ -30,14 +30,14 @@
       !read *,fnpsi2
       !read *,fnpsi3
 !input file
-      fnpsi1='/scratch3/BMC/nim/Brian.Etherton/QGmodel1/data/outpsi_200.dat'
-      fnpsi2='/scratch3/BMC/nim/Brian.Etherton/QGmodel1/data/outpsi_500.dat'
-      fnpsi3='/scratch3/BMC/nim/Brian.Etherton/QGmodel1/data/outpsi_800.dat'
+      fnpsi1='./data/outpsi_200.dat'
+      fnpsi2='./data/outpsi_500.dat'
+      fnpsi3='./data/outpsi_800.dat'
       !fstd='std_ght_mo.dat'
 
 !output file
-      fntrue='/scratch3/BMC/nim/Brian.Etherton/QGmodel1/data/true_westhem.dat'
-      fnana='/scratch3/BMC/nim/Brian.Etherton/QGmodel1/data/ana_westhem.dat'
+      fntrue='./data/true_westhem.dat'
+      fnana='./data/ana_westhem.dat'
       !fntrue1='outpsi_true_200.dat'
       !fntrue2='outpsi_true_500.dat'
       !fntrue3='outpsi_true_800.dat'

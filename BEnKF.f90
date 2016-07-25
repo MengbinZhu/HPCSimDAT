@@ -172,7 +172,7 @@ mdl_lat((nlat/2+1):nlat)=lat_angle(1:nlat/2)
 mdl_lat(1:nlat/2)=lat_angle(nlat:(nlat/2+1):-1)
 
 !--input the latlong of observation-----
-open (60,file='/scratch3/BMC/nim/Brian.Etherton/QGmodel1/data/lonlat_stn.grd',&
+open (60,file='./data/lonlat_stn.grd',&
      access='direct',form='unformatted',recl=nstn)
 read(60,rec=1)ob_lon
 read(60,rec=2)ob_lat

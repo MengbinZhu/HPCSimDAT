@@ -11,9 +11,9 @@
 !c
 !c  Reading of the names of files topography (grid), lmask (% of land), force (constant)
 !c
-      fntopo = '/scratch3/BMC/nim/Brian.Etherton/QGmodel1/topo.t21_le'
-      fnlmask = '/scratch3/BMC/nim/Brian.Etherton/QGmodel1/lmask.sus_le'
-      fnforce = '/scratch3/BMC/nim/Brian.Etherton/QGmodel1/force1.rec_le'
+      fntopo = './topo.t21_le'
+      fnlmask = './lmask.sus_le'
+      fnforce = './force1.rec_le'
 !c
 !c  Foring options:
 !c!  0) Forcing equal to 0
