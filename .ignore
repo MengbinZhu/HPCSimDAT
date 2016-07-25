@@ -1,0 +1,8 @@
+# Ignore module files
+*.mod
+
+# Ignore executables
+*.exe *.x
+
+# Ignore libraries
+*.a

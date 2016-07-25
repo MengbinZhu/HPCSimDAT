@@ -1,0 +1,5 @@
+#!/bin/bash -f
+
+rm qgcont.e
+ifort qgcont.f90 -o qgcont.e
+./qgcont.e
